@@ -1,13 +1,14 @@
 Ejecucion:
 
+Ubicarse en Tp2
 cd TP2
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-./main.py -i 127.0.0.1 -p 8080
 
-curl -X POST --data-binary "imagen.jpg" http://127.0.0.1:8080
+Iniciar servidor
+python3 TP2_Servidor.py
+
+Cargar la imagen
+python3 TP2_Cliente.py -i (path de la imagen)
 
 
-Desactivar entorno:
-deactivate
+Alumno: Matias agustin Perez
+Legajo: 61218
