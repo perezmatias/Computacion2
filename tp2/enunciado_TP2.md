@@ -19,10 +19,6 @@ El servidor HTTP debe enviar la imagen procesada al cliente y terminar la conexi
 #### B
 El servidor debe comunicarse con otro servidor en el mismo host. Este segundo servidor debe reducir el tamaño de la imagen un factor de escala dado por el primer servidor
 ​
-#### C
-Los servicios del servidor de escalado debe ser accesible desde el cliente vía el primer servidor.
-​
-​
 ### Requerimientos
 ​
 * La aplicación debe contener como mínimo 3 funciones.

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2-Computacion-2</title>
+</head>
+<body>
+    <h1>Subir Imagen para redimensionar</h1>
+    <form action="index.html" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <br>
+        <label for="scale_factor">Factor de Escala:</label>
+        <input type="number" name="scale_factor" step="0.1" min="0.1" max="2.0" value="1.0" required>
+        <br>
+        <input type="submit" value="Subir y Redimensionar">
+    </form>
+</body>
+</html>
